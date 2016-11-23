@@ -119,7 +119,6 @@ function test_playbook(){
 }
 function extra_tests(){
 
-    ${APACHE_CTL} configtest || (echo "php --version was failed" && exit 100 )
     echo "TEST: cat /etc/yum.repos.d/fgci.repo"
     cat /etc/yum.repos.d/fgci.repo
 }
